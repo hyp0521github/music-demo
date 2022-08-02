@@ -1,0 +1,88 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px !important;
+}
+
+table {
+  /* 合并表格边框 */
+  border-collapse: collapse;
+  /* 表格边框的之间空白的距离 */
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  /* 定义由粗到细的字符。400 等同于 normal */
+  font-weight: normal;
+  /* 默认值。浏览器显示一个标准的字体样式。 */
+  font-style: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  /* 100%继承body的字体大小 */
+  font-size: 100%;
+}
+
+q:before,
+q:after {
+  content: "";
+}
+
+abbr,
+acronym {
+  border: 0;
+}
